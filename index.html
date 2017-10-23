@@ -5,13 +5,16 @@
         <title>Fractals!</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.4/math.min.js"></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <!-- <script src="js/math.min.js"></script> -->
+        <script src="js/numeric-1.2.6.min.js"></script>
         <script src="js/mandelbrot.js"></script>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     
     
-    <body onload="plotData(1800, 2400)">
+    <body onload="myOnload()">
         <h1>Mandelbrot</h1>
-        <div id="mandelbrot" style="width:800px;height:600px;"></div>
+        <!-- style="width:800px;height:800px;" -->
+        <div id="mandelbrot" ></div>
     </body>
 </html> 
